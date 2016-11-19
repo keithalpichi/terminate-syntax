@@ -44,10 +44,10 @@ An adaptation of Apple's green default Terminal settings with a touch of blues, 
 ## Language Support
 **Terminate** *should* display nicely with most common languages. If not open an issue and I'll fix it (I'm also open to pull-requests. See below for more information). I've tested Terminate with the following languages:
 - Markdown
+- HTML &amp; CSS (LESS, SASS)
 - Python
 - Ruby
 - Javascript &amp; JSON
-- HTML &amp; CSS (LESS, SASS)
 - Elixir
 
 ## Pull Requests
