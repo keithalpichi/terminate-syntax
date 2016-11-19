@@ -56,6 +56,9 @@ Gladly accepting pull-requests. First open an issue if one hasn't been opened al
 ## Todo:
 - edit any `@red` attributes- I did this to note that I need to fix these. So in a language if there is an odd red syntax it's probably an attribute that hasn't been intentionally set yet.
 - Language-specific
-  - HTML- make color of `class` attributes match `id`
+  - HTML-
+    - make color of `class` attributes match `id`
+    - make all `href` attributes same color
+    - make all `=` same color
   - Python- fix color for constants. Not showing highlighted as red
   - Ruby- fix color of function calls. Not showing as highlighted neon-green
