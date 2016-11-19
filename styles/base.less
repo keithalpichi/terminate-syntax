@@ -156,12 +156,21 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @teal;
   }
 
+  &.language.self {
+    &.ruby {
+      color: @syntax-text-color;
+    }
+  }
+
   &.other.constant {
     color: saturate(@dark-red, 10%);
 
     &.elixir {
       color: @syntax-text-color;
     }
+  }
+  &.other.readwrite.class.ruby {
+    color: saturate(@dark-red, 10%);
   }
 }
 
@@ -225,6 +234,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.variable {
       color: @syntax-text-color;
+
+      &.ruby {
+        color: @dark-red;
+      }
     }
 
     &.begin,
@@ -296,6 +309,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.any-method {
       color: @teal;
+    }
+
+    &.magic {
+      color: @neon-lime;
     }
   }
   &.type {

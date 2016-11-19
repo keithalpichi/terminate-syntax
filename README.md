@@ -4,18 +4,20 @@
 
 An adaptation of Apple's green default Terminal settings with a touch of blues, yellows and red to contrast important syntax like function calls, constants, strings, operators and comments while keeping a central color scheme.
 
+#### CSS (LESS shown below)
+![LESS](images/LESS.png)
+#### HTML
+![HTML](images/HTML.png)
 #### Javascript
 ![JS](images/JS.png)
 #### ruby
-![ruby](images/Ruby.png)
+![ruby](images/ruby.png)
 #### Python
 ![python](images/python.png)
 #### Markdown
 ![MD](images/markdown.png)
 #### JSON
 ![json](images/json.png)
-#### HTMl (*coming soon*)
-#### CSS (*coming soon*)
 
 ## Idea behind Terminate:
 - Old school feel of bright green font with a dark background.
