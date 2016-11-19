@@ -2,9 +2,20 @@
 
 > See snapshots below to see what Terminate looks like
 
-![Terminate-syntax](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
-
 An adaptation of Apple's green default Terminal settings with a touch of blues, yellows and red to contrast important syntax like function calls, constants, strings, operators and comments while keeping a central color scheme.
+
+#### Javascript
+![JS](images/JS.png)
+#### ruby
+![ruby](images/Ruby.png)
+#### Python
+![python](images/python.png)
+#### Markdown
+![MD](images/markdown.png)
+#### JSON
+![json](images/json.png)
+#### HTMl (*coming soon*)
+#### CSS (*coming soon*)
 
 ## Idea behind Terminate:
 - Old school feel of bright green font with a dark background.
@@ -40,4 +51,5 @@ Gladly accepting pull-requests. First open an issue if one hasn't been opened al
 - edit any `@red` attributes- I did this to note that I need to fix these. So in a language if there is an odd red syntax it's probably an attribute that hasn't been intentionally set yet.
 - HTML- make color of 'class' attributes match 'id'
 - Language-specific
-  - Python- fix color for constants
+  - Python- fix color for constants. Not showing highlighted as red
+  - Ruby- fix color of function calls. Not showing as highlighted neon-green
