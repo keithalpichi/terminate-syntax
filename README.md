@@ -1,4 +1,6 @@
-# Terminate-syntax theme
+# Terminate
+---
+#### Syntax theme for the Atom.io editor
 
 > See snapshots below to see what Terminate looks like
 
