@@ -10,8 +10,10 @@
 @syntax-background-color: darken(@dark-teal, 2%);
 @syntax-string-color: desaturate(lighten(@lime, 60%), 40%);
 @syntax-comment-color: @deep-ocean;
-@syntax-constants-color: @neon-lime;
+@syntax-constants-color: saturate(@dark-red, 10%);//@neon-lime;
 @syntax-separators-color: @sky-blue;
+@syntax-function-call-color: @neon-lime;
+@syntax-code-color: @syntax-string-color;
 
 // Guide colors
 @syntax-wrap-guide-color: @dark-gray;

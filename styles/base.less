@@ -163,14 +163,17 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.constant {
-    color: saturate(@dark-red, 10%);
+    color: @syntax-constants-color;
 
     &.elixir {
       color: @syntax-text-color;
     }
   }
   &.other.readwrite.class.ruby {
-    color: saturate(@dark-red, 10%);
+    color: @syntax-constants-color;
+  }
+  &.other.readwrite.module.elixir {
+    color: @syntax-constants-color;
   }
 }
 
@@ -235,7 +238,8 @@ atom-text-editor .search-results .marker.current-result .region,
     &.variable {
       color: @syntax-text-color;
 
-      &.ruby {
+      &.ruby,
+      &.elixir {
         color: @dark-red;
       }
     }
@@ -312,7 +316,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.magic {
-      color: @neon-lime;
+      color: @syntax-function-call-color;
     }
   }
   &.type {
@@ -388,7 +392,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
   // Color of function calls
   &.function-call {
-    color: @neon-lime;
+    color: @syntax-function-call-color;;
   }
 
   // Python generator?
@@ -442,7 +446,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.raw {
-    color: @syntax-string-color;
+    color: @syntax-code-color;
     &.inline {
       color: @teal;
     }
