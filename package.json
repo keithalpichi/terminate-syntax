@@ -1,7 +1,7 @@
 {
   "name": "terminate-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "An Atom.io syntax theme inspired by Apple's green default Terminal profile with contrastring colors to highlight important parts of interpreted code",
   "keywords": [
     "syntax",
