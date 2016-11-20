@@ -105,15 +105,28 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.other.special-method {
     color: @teal;//@red;
+
+    &.ruby {
+      color: @syntax-function-call-color;
+    }
   }
 
   &.other.unit {
     color: @red;
+
+    &.css {
+      color: @teal;
+    }
   }
 }
 
 .storage {
   color: @teal;
+
+  // JS arrow function
+  &.type.function.arrow.js {
+    color: red;//darken(@red, 10%);
+  }
 }
 
 .constant {
@@ -129,22 +142,29 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.numeric {
-    color: @neon-lime;
+    color: darken(@neon-lime, 10%);
   }
 
-  &.other.color {
-    color: @red;
+  &.other {
+    &.color {
+      color: @red;
+    }
+
+    &.symbol {
+      color: lighten(@dark-red, 20%);
+    }
+    &.placeholder.python {
+      color: @teal;
+    }
   }
 
-  &.other.symbol {
-    color: lighten(@dark-red, 20%);
-  }
 }
 
 .variable {
   color: @syntax-text-color;
 
-  &.unordered {
+  &.unordered,
+  &.ordered {
     color: @neon-lime;
   }
 
@@ -219,6 +239,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.continuation {
       color: @syntax-text-color;
+    }
+
+    &.variable.ruby {
+      color: @syntax-separators-color;
     }
   }
 
@@ -322,6 +346,10 @@ atom-text-editor .search-results .marker.current-result .region,
   &.type {
     color: @syntax-text-color;
   }
+
+  &.constant {
+    color: @teal;
+  }
 }
 
 .entity {
@@ -357,8 +385,9 @@ atom-text-editor .search-results .marker.current-result .region,
   &.other.attribute-name {
     color: @syntax-text-color;
 
-    &.id {
-      color: @red;
+    &.id,
+    &.class {
+      color: @neon-lime;
     }
     // need to add an attr for 'classes'
   }
@@ -386,6 +415,10 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @syntax-text-color;
   }
 
+  &.delimiter {
+    color: @dark-red;
+  }
+
   &.brace {
     color: @syntax-separators-color;
   }
@@ -393,6 +426,10 @@ atom-text-editor .search-results .marker.current-result .region,
   // Color of function calls
   &.function-call {
     color: @syntax-function-call-color;;
+
+    &.arguments {
+      color: @teal;
+    }
   }
 
   // Python generator?
@@ -451,6 +488,10 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @teal;
     }
   }
+}
+
+.border {
+  color: @teal;
 }
 
 .source.gfm .markup {
