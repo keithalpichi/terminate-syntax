@@ -6,22 +6,22 @@
 
 An adaptation of Apple's green default Terminal settings with a touch of blues, yellows and red to contrast important syntax like function calls, constants, strings, operators and comments while keeping a central color scheme.
 
-#### CSS (LESS shown below)
-![LESS](images/LESS.png)
+#### LESS (here is a screenshot of Terminate's color scheme)
+![less](https://cloud.githubusercontent.com/assets/14797743/20460431/01afa88c-ae97-11e6-90e7-6658f1332fb9.png)
+#### CSS
+![css](https://cloud.githubusercontent.com/assets/14797743/20460432/01cdb23c-ae97-11e6-90d1-ffa20ddb10f0.png)
 #### HTML
-![HTML](images/HTML.png)
-#### Javascript
-![JS](images/JS.png)
-#### Ruby
-![ruby](images/ruby.png)
-#### Python
-![python](images/python.png)
+![html](https://cloud.githubusercontent.com/assets/14797743/20460451/68cf45a4-ae97-11e6-988b-06f029a231a8.png)
 #### Markdown
-![MD](images/markdown.png)
-#### JSON
-![json](images/json.png)
+![markdown](https://cloud.githubusercontent.com/assets/14797743/20460388/3e6aee8c-ae95-11e6-9e1b-31fdeae88da0.png)
+#### Javascript
+![javascript](https://cloud.githubusercontent.com/assets/14797743/20460387/3e6abf5c-ae95-11e6-8bcc-fb691b1f70e5.png)
+#### Ruby
+![ruby](https://cloud.githubusercontent.com/assets/14797743/20460390/3e734f50-ae95-11e6-8685-a7dd8fc192b3.png)
+#### Python
+![python](https://cloud.githubusercontent.com/assets/14797743/20460389/3e6cfa24-ae95-11e6-9ff0-c4f71e90ff98.png)
 #### Elixir
-![elixir](images/elixir.png)
+![elixir](https://cloud.githubusercontent.com/assets/14797743/20460386/3e68a9ce-ae95-11e6-9c12-45847b78d62d.png)
 
 ## Idea behind Terminate:
 - Old school feel of bright green font with a dark background.
@@ -60,5 +60,11 @@ Gladly accepting pull-requests. First open an issue if one hasn't been opened al
     - make color of `class` attributes match `id`
     - make all `href` attributes same color
     - make all `=` same color
-  - Python- fix color for constants. Not showing highlighted as red
-  - Ruby- fix color of function calls. Not showing as highlighted neon-green
+  - Python
+    - fix color for constants and booleans. Not showing highlighted as red
+  - Ruby-
+    - fix color of function calls. Not showing as highlighted neon-green
+    - fix color change of interpolated strings
+  - Elixir-
+    - fix color of constants
+    - change single line `do`'s to secondary color (teal)
