@@ -2,7 +2,7 @@
 ---
 #### Syntax theme for the Atom.io editor
 
-> See snapshots below to see what Terminate looks like
+> Terminate-syntax (this package) goes really well with Terminate-ui. Make sure to pair these together.
 
 An adaptation of Apple's green default Terminal settings with a touch of blues, yellows and red to contrast important syntax like function calls, constants, strings, operators and comments while keeping a central color scheme.
 
@@ -40,6 +40,9 @@ An adaptation of Apple's green default Terminal settings with a touch of blues, 
 - Comment color- lightened shade of background color
 - String color- bright white shade of main text color
 - Constants and operations color- from dark to normal red
+
+## Installation
+`> apm install terminate-syntax` or search and install theme in `Preferences` -> `Install` -> `Install Packages` -> `terminate-syntax`
 
 ## Language Support
 **Terminate** *should* display nicely with most common languages. If not open an issue and I'll fix it (I'm also open to pull-requests. See below for more information). I've tested Terminate with the following languages:
